@@ -1,0 +1,43 @@
+add artist bob
+add album foo by bob
+add album "bar by bar" by bob
+add track "dancing man" on foo by bob
+add track "rock on" on foo by bob
+add track "sunday blues" on foo by bob
+add track "crushed heart" on foo by bob
+add track "dancing man" on foo by bob
+list albums by bob
+list tracks on foo by bob
+list tracks on "bar by bar" by bob
+add artist "Smiling Lemurs"
+add album "Sunbeams and Snowdrifts" by "Smiling Lemurs"
+add track "White Noise" on "Sunbeams and Snowdrifts" by "Smiling Lemurs"
+add track "Shades Alert" on "Sunbeams and Snowdrifts" by "Smiling Lemurs"
+add track "Five bucks per driveway" on "Sunbeams and Snowdrifts" by "Smiling Lemurs"
+list albums by "Smiling Lemurs"
+list tracks on "Not a real album" by "Smiling Lemurs"
+list tracks on "Sunbeams and Snowdrifts" by "Smiling Lemurs"
+add track "Boots, Gaiters, and a Bag of Raisins" on "Sunbeams and Snowdrifts" by "Smiling Lemurs"
+add track Moonbeam on "Sunbeams and Snowdrifts" by "Smiling Lemurs"
+add track "Clydesdales Never Get Me Down" on "Sunbeams and Snowdrifts" by "Smiling Lemurs"
+list tracks on "Sunbeams and Snowdrifts" by "Smiling Lemurs"
+list top 10 tracks
+listen to "Clydesdales Never Get Me Down" on "Sunbeams and Snowdrifts" by "Smiling Lemurs"
+listen to "Boots, Gaiters, and a Bag of Raisins" on "Sunbeams and Snowdrifts" by "Smiling Lemurs"
+listen to "Boots, Gaiters, and a Bag of Raisins" on "Sunbeams and Snowdrifts" by "Smiling Lemurs"
+listen to "Clydesdales Never Get Me Down" on "Sunbeams and Snowdrifts" by "Smiling Lemurs"
+listen to "crushed heart" on foo by bob
+listen to "dancing man" on foo by bob
+listen to "crushed heart" on foo by bob
+listen to "Boots, Gaiters, and a Bag of Raisins" on "Sunbeams and Snowdrifts" by "Smiling Lemurs"
+listen to "Boots, Gaiters, and a Bag of Raisins" on "Sunbeams and Snowdrifts" by "Smiling Lemurs"
+listen to "Clydesdales Never Get Me Down" on "Sunbeams and Snowdrifts" by "Smiling Lemurs"
+listen to "Boots, Gaiters, and a Bag of Raisins" on "Sunbeams and Snowdrifts" by "Smiling Lemurs"
+listen to "Boots, Gaiters, and a Bag of Raisins" on "Sunbeams and Snowdrifts" by "Smiling Lemurs"
+listen to "Clydesdales Never Get Me Down" on "Sunbeams and Snowdrifts" by "Smiling Lemurs"
+listen to "Clydesdales Never Get Me Down" on "Sunbeams and Snowdrifts" by "Smiling Lemurs"
+listen to "Clydesdales Never Get Me Down" on "Sunbeams and Snowdrifts" by bob
+list top 2 tracks
+list top 4 tracks
+list top 2 artists
+list top 10 artists
