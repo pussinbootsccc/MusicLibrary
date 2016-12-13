@@ -1,4 +1,5 @@
 import shlex
+import sys
 from Utils import *
 
 __author__ = "Carol Cha"
@@ -206,10 +207,12 @@ class MusicLibrary:
     def execute(self, command):
         """Parse and execute the command line input.
         """
-        args = shlex.split(command)
+        args = shlex.split(command.strip())
 
         try:
-            if args[0] == "add":
+            if args[0] == "help":
+                self.pop_help()
+            elif args[0] == "add":
                 if args[1] == "artist":
                     self.add_artists(args[-1])
                 elif args[1] == "album":
@@ -279,6 +282,10 @@ class MusicLibrary:
 
 if __name__ == '__main__':
     ml = MusicLibrary()
-    # ml.run()
-    ml.run_test("sample_in.txt")
+
+    if len(sys.argv) >= 2:
+        command_log_file = sys.argv[1]
+        ml.run_test(command_log_file)
+    else:
+        ml.run()
 
